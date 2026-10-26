@@ -6,7 +6,7 @@ Desarrollar colaborativamente un prototipo de tienda online de moda francesa uti
 
 Equipo formado por tres desarrolladores.
 
-## Desarrollador 1 — (Raul) Líder
+## Desarrollador 1 — (Luis) Líder
 
 **Responsabilidad:** Home y elementos compartidos.
 
@@ -34,7 +34,7 @@ Equipo formado por tres desarrolladores.
 
 **Rama:** `feature/catalog-product`
 
-## Desarrollador 3 (Luis) — Carrito y checkout
+## Desarrollador 3 (Raúl) — Carrito y checkout
 
 - [ ] Implementar `cart.html`.
 - [ ] Mostrar tres productos de ejemplo.
