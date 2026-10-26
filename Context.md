@@ -29,7 +29,7 @@ Las páginas deben estar enlazadas entre sí y compartir navbar y footer.
 ## Identidad
 - Marca: MAISON ÉTOILE.
 - Mercado: Francia.
-- Idioma de la web: francés.
+- Idioma de la web: español.
 - Estética: elegante, minimalista y premium.
 
 ## Equipo
