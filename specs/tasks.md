@@ -44,7 +44,7 @@ Equipo formado por tres desarrolladores.
 - [x] Crear formulario de datos personales.
 - [x] Crear sección de dirección de entrega.
 - [x] Crear sección visual de pago con tarjeta.
-- [ ] Verificar diseño responsive.
+- [x] Verificar diseño responsive.
 
 **Rama:** `feature/cart-checkout`
 
@@ -75,4 +75,4 @@ Equipo formado por tres desarrolladores.
 
 ## Estado
 
-Proyecto en desarrollo. En la auditoría de `cart.html` y `checkout.html` se verificaron los puntos marcados de Raúl. La comprobación visual responsive queda pendiente; las demás tareas sin marcar no se consideran verificadas en esta revisión.
+Proyecto en desarrollo. En la auditoría de `cart.html` y `checkout.html` se verificaron los puntos marcados de Raúl, incluida la comprobación responsive. Las demás tareas sin marcar no se consideran verificadas en esta revisión.
