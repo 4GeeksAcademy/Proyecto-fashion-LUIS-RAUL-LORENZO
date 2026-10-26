@@ -35,6 +35,7 @@ No implementar backend, bases de datos ni pagos reales.
 - Utilizar HTML accesible y optimizado para SEO.
 - Mantener una estructura sencilla y organizada.
 - Reutilizar los patrones compartidos de navbar, footer y tarjetas.
+- Toda página nueva debe copiar el navbar y el footer de `docs/reference.html` como única referencia, sin alterar su estructura ni estilos y ajustando solo las rutas relativas de los enlaces.
 - No añadir funcionalidades fuera de los requisitos aprobados.
 
 ## 4. Trabajo colaborativo
