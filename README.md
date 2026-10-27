@@ -1,41 +1,81 @@
-# HTML Hello
+# MAISON ÉTOILE
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+Prototipo académico de una tienda online de moda contemporánea francesa. La experiencia está en español y adapta su diseño a móviles, tablets y escritorio.
 
-> There is a video tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+## Sitio web
 
-## What to do next?
+[https://maison-etoile-ten.vercel.app/](https://maison-etoile-ten.vercel.app/)
 
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+## Elementos compartidos
+
+### Barra de navegación
+
+Las páginas presentan la identidad MAISON ÉTOILE y enlaces a Inicio, Catálogo, Producto y Carrito, además de accesos visuales a búsqueda y cuenta. La navegación se adapta a los distintos tamaños de pantalla.
+
+### Pie de página
+
+El pie de página reúne enlaces a las categorías de productos, información de la marca, apartados legales y datos de contacto.
+
+### Paleta de colores
+
+- Negro carbón: `#202020`
+- Blanco marfil: `#FAF9F6`
+- Beige arena: `#EAE4DA`
+- Burdeos: `#783B46`
+- Gris: `#666666`
+- Bordes: `#E5E5E5`
+
+### Tipografía
+
+Se utiliza **Playfair Display** en títulos y **Inter** en textos, navegación y controles, de acuerdo con la identidad editorial y minimalista del proyecto.
+
+## Páginas
+
+- **Inicio (`index.html`):** página prevista con una portada editorial, imagen principal y accesos a la colección, seguida de secciones de novedades y productos más vendidos.
+- **Catálogo (`catalog.html`):** reúne 20 productos en una cuadrícula con nombre, precio y placeholder visual. Incluye selectores de categoría y talla; son visuales y no filtran dinámicamente los resultados.
+- **Producto (`product.html`):** muestra una ficha de ejemplo en dos columnas en pantallas grandes. Presenta fotografía e información de unos mocasines de piel, con referencia, precio, tallas, cantidad, descripción y materiales. La descripción menciona su calce versátil como orientación de uso. El botón para añadir al carrito está deshabilitado.
+- **Carrito (`cart.html`):** muestra tres productos ficticios con variantes, cantidades, precios unitarios e importes por línea. Incluye un resumen con subtotal, IVA, envío y total, además de enlaces para volver al catálogo o continuar al checkout.
+- **Checkout (`checkout.html`):** presenta en una página los tres pasos de demostración: datos personales, dirección de entrega y pago con tarjeta. Incluye campos etiquetados, un resumen del pedido y un aviso de que no deben introducirse datos reales. No envía ni almacena información y no procesa pagos.
+
+## Tecnologías
+
+- HTML5 semántico.
+- Tailwind CSS mediante CDN.
+- CSS adicional cuando es necesario.
+- Schema.org para datos estructurados.
+- Metadatos SEO y recursos tipográficos.
+
+El proyecto no utiliza frameworks de JavaScript ni requiere backend, base de datos o instalación de dependencias. Tailwind CSS y algunos recursos externos requieren conexión a Internet.
+
+## Integrantes
+
+- **Luis:** página de inicio y componentes de navegación y pie de página.
+- **Lorenzo:** catálogo y página de producto.
+- **Raúl:** carrito y checkout.
+
+## Ejecutar localmente
+
+Se necesita Python 3. Desde la carpeta del proyecto, ejecuta:
 
 ```bash
-$ pip3 install flask && python3 server.py
+python3 -m http.server 8000
 ```
 
-- You can create as many HTML files as you want.
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+En esta rama, abre una página disponible, por ejemplo [http://localhost:8000/catalog.html](http://localhost:8000/catalog.html). La URL raíz abrirá la página de inicio cuando `index.html` esté integrado. Para detener el servidor, pulsa `Ctrl+C` en la terminal.
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+## Organización del proyecto
 
-- If you want to use Tailwind CSS, add it optionally via the official Tailwind CSS v4 CDN inside the same `<head>`:
+- `docs/`: documentación y página de referencia compartida.
+- `specs/`: especificaciones, planes y tareas de las páginas.
+- `Agents.md`: instrucciones y convenciones para asistentes.
+- `Context.md`: contexto, páginas requeridas y objetivos.
+- `Design.md`: identidad visual y criterios de diseño.
+- `catalog.html`, `product.html`, `cart.html` y `checkout.html`: páginas presentes en esta rama.
 
-```html
-<head>
-  ...
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+## Trabajo colaborativo
 
-### Contributors
+Cada integrante trabaja en una rama propia y propone sus cambios mediante pull requests. Antes de empezar, consulta `Agents.md`, `Context.md`, `Design.md` y la especificación correspondiente en `specs/`. Los cambios deben revisarse antes de integrarse en `main`.
 
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
+## Alcance
 
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
+Este repositorio contiene un prototipo visual académico. No incluye backend, persistencia del carrito, inventario, cuentas ni pagos reales. Los productos, cantidades e importes son ilustrativos.
