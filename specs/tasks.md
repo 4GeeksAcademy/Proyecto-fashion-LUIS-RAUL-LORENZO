@@ -36,15 +36,15 @@ Equipo formado por tres desarrolladores.
 
 ## Desarrollador 3 (Raúl) — Carrito y checkout
 
-- [ ] Implementar `cart.html`.
-- [ ] Mostrar tres productos de ejemplo.
-- [ ] Añadir cantidades, precios e impuestos.
-- [ ] Crear resumen y botón de compra.
-- [ ] Implementar `checkout.html`.
-- [ ] Crear formulario de datos personales.
-- [ ] Crear sección de dirección de entrega.
-- [ ] Crear sección visual de pago con tarjeta.
-- [ ] Verificar diseño responsive.
+- [x] Implementar `cart.html`.
+- [x] Mostrar tres productos de ejemplo.
+- [x] Añadir cantidades, precios e impuestos.
+- [x] Crear resumen y botón de compra.
+- [x] Implementar `checkout.html`.
+- [x] Crear formulario de datos personales.
+- [x] Crear sección de dirección de entrega.
+- [x] Crear sección visual de pago con tarjeta.
+- [x] Verificar diseño responsive.
 
 **Rama:** `feature/cart-checkout`
 
@@ -75,4 +75,4 @@ Equipo formado por tres desarrolladores.
 
 ## Estado
 
-Proyecto en fase de preparación. Desarrollo pendiente de iniciar.
+Proyecto en desarrollo. En la auditoría de `cart.html` y `checkout.html` se verificaron los puntos marcados de Raúl, incluida la comprobación responsive. Las demás tareas sin marcar no se consideran verificadas en esta revisión.
