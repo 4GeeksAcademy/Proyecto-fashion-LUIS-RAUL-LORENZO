@@ -10,14 +10,14 @@ Equipo formado por tres desarrolladores.
 
 **Responsabilidad:** Home y elementos compartidos.
 
-- [ ] Crear estructura base HTML.
-- [ ] Definir navbar compartida.
-- [ ] Definir footer compartido.
-- [ ] Implementar `index.html`.
-- [ ] Crear hero editorial.
-- [ ] Añadir sección de novedades.
-- [ ] Añadir sección de productos más vendidos.
-- [ ] Verificar diseño responsive.
+- [x] Crear estructura base HTML.
+- [x] Definir navbar compartida.
+- [x] Definir footer compartido.
+- [x] Implementar `index.html`.
+- [x] Crear hero editorial.
+- [x] Añadir sección de novedades.
+- [x] Añadir sección de productos más vendidos.
+- [x] Verificar diseño responsive.
 
 **Rama:** `feature/home`
 

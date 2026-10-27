@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAISON ÉTOILE | Moda contemporánea francesa</title>
+  <meta name="description" content="Descubre MAISON ÉTOILE: moda contemporánea francesa, piezas atemporales y una selección cuidada de novedades y favoritos.">
+  <meta name="theme-color" content="#FAF9F6">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            carbon: '#202020',
+            marfil: '#FAF9F6',
+            arena: '#EAE4DA',
+            burdeos: '#783B46',
+            gris: '#666666',
+            borde: '#E5E5E5'
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "OnlineStore",
+    "name": "MAISON ÉTOILE",
+    "description": "Marca francesa de moda contemporánea.",
+    "url": "https://maisonetoile.example/",
+    "inLanguage": "es",
+    "areaServed": "FR",
+    "brand": {
+      "@type": "Brand",
+      "name": "MAISON ÉTOILE"
+    }
+  }
+  </script>
+</head>
+<body class="min-h-screen flex flex-col bg-marfil font-sans text-carbon">
+  <a href="#contenido" class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-carbon focus:px-4 focus:py-2 focus:text-white">Saltar al contenido</a>
+
+  <header class="sticky top-0 z-40 border-b border-borde bg-marfil">
+    <nav aria-label="Principal" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex min-h-16 items-center justify-between gap-2 sm:gap-4">
+        <a href="index.html" aria-current="page" class="shrink-0 font-serif text-sm tracking-widest text-carbon focus:outline-none focus-visible:ring-2 focus-visible:ring-burdeos sm:text-xl lg:text-2xl">MAISON ÉTOILE</a>
+
+        <ul class="hidden items-center gap-8 text-sm font-medium lg:flex">
+          <li><a href="index.html" aria-current="page" class="text-burdeos hover:text-burdeos focus-visible:underline">Inicio</a></li>
+          <li><a href="catalog.html" class="hover:text-burdeos focus-visible:underline">Catálogo</a></li>
+          <li><a href="product.html" class="hover:text-burdeos focus-visible:underline">Producto</a></li>
+        </ul>
+
+        <form role="search" action="catalog.html" class="hidden max-w-xs flex-1 md:block">
+          <label for="buscar" class="sr-only">Buscar productos</label>
+          <input id="buscar" name="q" type="search" placeholder="Buscar..." class="w-full border border-borde bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-burdeos">
+        </form>
+
+        <div class="flex shrink-0 items-center gap-1 text-xs font-medium sm:gap-2 sm:text-sm">
+          <a href="#" class="px-1.5 py-2 hover:text-burdeos focus-visible:underline sm:px-3">Cuenta</a>
+          <a href="cart.html" class="whitespace-nowrap px-1.5 py-2 hover:text-burdeos focus-visible:underline sm:px-3">Carrito (3)</a>
+          <details class="group relative lg:hidden">
+            <summary aria-label="Menú de navegación" class="flex h-10 w-9 cursor-pointer list-none items-center justify-center border border-carbon hover:bg-carbon hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos [&::-webkit-details-marker]:hidden">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16" /></svg>
+            </summary>
+            <div class="absolute right-0 top-full z-50 mt-2 w-[min(20rem,calc(100vw-2rem))] border border-borde bg-marfil p-4 shadow-lg">
+              <form role="search" action="catalog.html" class="mb-3 md:hidden">
+                <label for="buscar-movil" class="sr-only">Buscar productos</label>
+                <input id="buscar-movil" name="q" type="search" placeholder="Buscar..." class="w-full border border-borde bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-burdeos">
+              </form>
+              <ul class="divide-y divide-borde text-sm font-medium">
+                <li><a href="index.html" aria-current="page" class="block py-3 text-burdeos hover:text-burdeos focus-visible:underline">Inicio</a></li>
+                <li><a href="catalog.html" class="block py-3 hover:text-burdeos focus-visible:underline">Catálogo</a></li>
+                <li><a href="product.html" class="block py-3 hover:text-burdeos focus-visible:underline">Producto</a></li>
+              </ul>
+            </div>
+          </details>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido" class="flex-1">
+    <section aria-labelledby="hero-titulo" class="bg-arena">
+      <div class="mx-auto grid max-w-7xl items-stretch lg:min-h-[34rem] lg:grid-cols-2">
+        <div class="flex flex-col justify-center px-5 py-12 sm:px-8 sm:py-16 lg:px-12 lg:py-20">
+          <p class="text-xs font-medium uppercase tracking-[0.24em] text-burdeos sm:text-sm">Moda contemporánea francesa</p>
+          <h1 id="hero-titulo" class="mt-4 max-w-xl font-serif text-4xl leading-tight sm:text-5xl lg:text-6xl">La elegancia de lo esencial</h1>
+          <p class="mt-5 max-w-lg text-sm leading-7 text-gris sm:text-base">Piezas cuidadas, líneas atemporales y una mirada serena sobre el vestir. Descubre una colección pensada para acompañarte temporada tras temporada.</p>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="catalog.html" class="inline-flex items-center justify-center bg-carbon px-6 py-3 text-sm font-medium text-white hover:bg-burdeos focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-burdeos">Descubrir la colección</a>
+            <a href="#novedades" class="inline-flex items-center justify-center border border-carbon px-6 py-3 text-sm font-medium hover:bg-carbon hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-burdeos">Ver novedades</a>
+          </div>
+          <p class="mt-8 text-xs uppercase tracking-[0.18em] text-gris">Diseñada con calma · París, Francia</p>
+        </div>
+        <div class="relative min-h-[20rem] sm:min-h-[28rem] lg:min-h-full">
+          <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1400&q=78" alt="Silueta de moda contemporánea en una calle de París" width="1400" height="1600" fetchpriority="high" decoding="async" class="absolute inset-0 h-full w-full object-cover object-center">
+          <div class="absolute bottom-4 left-4 bg-marfil/90 px-4 py-3 text-xs tracking-wide text-carbon sm:bottom-6 sm:left-6">Colección · Otoño / Invierno</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="novedades" aria-labelledby="novedades-titulo" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+      <div class="mb-7 flex items-end justify-between gap-4 sm:mb-9">
+        <div>
+          <p class="text-xs uppercase tracking-[0.2em] text-burdeos">Recién llegados</p>
+          <h2 id="novedades-titulo" class="mt-2 font-serif text-3xl sm:text-4xl">Nuevos lanzamientos</h2>
+        </div>
+        <a href="catalog.html" class="hidden text-sm font-medium underline decoration-borde underline-offset-4 hover:text-burdeos focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos sm:inline">Ver todo el catálogo</a>
+      </div>
+      <ul class="grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
+        <li class="group">
+          <a href="product.html" class="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos">
+            <div class="relative aspect-[3/4] overflow-hidden bg-arena"><img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=640&h=853&q=75" alt="Chaqueta beige de corte clásico con botones oscuros" width="640" height="853" loading="lazy" decoding="async" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"><span class="absolute left-2 top-2 bg-marfil px-2 py-1 text-[10px] uppercase tracking-wider sm:left-3 sm:top-3 sm:text-xs">Nuevo</span></div>
+            <div class="pt-3"><h3 class="text-xs font-medium sm:text-sm">Chaqueta Héritage</h3><p class="mt-1 text-xs text-gris sm:text-sm">Arena · 285,00 €</p></div>
+          </a>
+        </li>
+        <li class="group">
+          <a href="product.html" class="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos">
+            <div class="relative aspect-[3/4] overflow-hidden bg-arena"><img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=640&h=853&q=75" alt="Pantalón de vestir rosa de silueta recta" width="640" height="853" loading="lazy" decoding="async" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"><span class="absolute left-2 top-2 bg-marfil px-2 py-1 text-[10px] uppercase tracking-wider sm:left-3 sm:top-3 sm:text-xs">Nuevo</span></div>
+            <div class="pt-3"><h3 class="text-xs font-medium sm:text-sm">Pantalón Élise</h3><p class="mt-1 text-xs text-gris sm:text-sm">Rosa · 160,00 €</p></div>
+          </a>
+        </li>
+        <li class="group">
+          <a href="product.html" class="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos">
+            <div class="relative aspect-[3/4] overflow-hidden bg-arena"><img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=640&h=853&q=75" alt="Prenda de vestir de tono claro y diseño minimalista" width="640" height="853" loading="lazy" decoding="async" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"><span class="absolute left-2 top-2 bg-marfil px-2 py-1 text-[10px] uppercase tracking-wider sm:left-3 sm:top-3 sm:text-xs">Nuevo</span></div>
+            <div class="pt-3"><h3 class="text-xs font-medium sm:text-sm">Camisa Céleste</h3><p class="mt-1 text-xs text-gris sm:text-sm">Blanco · 125,00 €</p></div>
+          </a>
+        </li>
+        <li class="group">
+          <a href="product.html" class="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos">
+            <div class="relative aspect-[3/4] overflow-hidden bg-arena"><img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=640&h=853&q=75" alt="Bolso marrón de estructura rectangular y asas superiores" width="640" height="853" loading="lazy" decoding="async" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"><span class="absolute left-2 top-2 bg-marfil px-2 py-1 text-[10px] uppercase tracking-wider sm:left-3 sm:top-3 sm:text-xs">Nuevo</span></div>
+            <div class="pt-3"><h3 class="text-xs font-medium sm:text-sm">Bolso Madeleine</h3><p class="mt-1 text-xs text-gris sm:text-sm">Caramelo · 210,00 €</p></div>
+          </a>
+        </li>
+      </ul>
+      <a href="catalog.html" class="mt-6 inline-flex text-sm font-medium underline decoration-borde underline-offset-4 hover:text-burdeos focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos sm:hidden">Ver todo el catálogo</a>
+    </section>
+
+    <section aria-labelledby="favoritos-titulo" class="bg-white">
+      <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+        <div class="mb-7 flex items-end justify-between gap-4 sm:mb-9">
+          <div>
+            <p class="text-xs uppercase tracking-[0.2em] text-burdeos">Favoritos de la maison</p>
+            <h2 id="favoritos-titulo" class="mt-2 font-serif text-3xl sm:text-4xl">Los más vendidos</h2>
+          </div>
+          <a href="catalog.html" class="hidden text-sm font-medium underline decoration-borde underline-offset-4 hover:text-burdeos focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos sm:inline">Explorar el catálogo</a>
+        </div>
+        <ul class="grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
+          <li class="group">
+            <a href="product.html" class="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos">
+              <div class="relative aspect-[3/4] overflow-hidden bg-arena"><img src="https://images.unsplash.com/photo-1539533018447-63fcce2678e3?auto=format&fit=crop&w=640&h=853&q=75" alt="Abrigo largo beige de corte clásico" width="640" height="853" loading="lazy" decoding="async" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"><span class="absolute left-2 top-2 bg-marfil px-2 py-1 text-[10px] uppercase tracking-wider sm:left-3 sm:top-3 sm:text-xs">Favorito</span></div>
+              <div class="pt-3"><h3 class="text-xs font-medium sm:text-sm">Abrigo Étoile</h3><p class="mt-1 text-xs text-gris sm:text-sm">Camel · 320,00 €</p></div>
+            </a>
+          </li>
+          <li class="group">
+            <a href="product.html" class="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos">
+              <div class="relative aspect-[3/4] overflow-hidden bg-arena"><img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=640&h=853&q=75" alt="Camisa blanca de botones y corte clásico" width="640" height="853" loading="lazy" decoding="async" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"><span class="absolute left-2 top-2 bg-marfil px-2 py-1 text-[10px] uppercase tracking-wider sm:left-3 sm:top-3 sm:text-xs">Favorito</span></div>
+              <div class="pt-3"><h3 class="text-xs font-medium sm:text-sm">Camisa Lumière</h3><p class="mt-1 text-xs text-gris sm:text-sm">Blanco · 110,00 €</p></div>
+            </a>
+          </li>
+          <li class="group">
+            <a href="product.html" class="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos">
+              <div class="relative aspect-[3/4] overflow-hidden bg-arena"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=640&h=853&q=75" alt="Zapatos de tacón en tono beige" width="640" height="853" loading="lazy" decoding="async" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"><span class="absolute left-2 top-2 bg-marfil px-2 py-1 text-[10px] uppercase tracking-wider sm:left-3 sm:top-3 sm:text-xs">Favorito</span></div>
+              <div class="pt-3"><h3 class="text-xs font-medium sm:text-sm">Zapatos Amélie</h3><p class="mt-1 text-xs text-gris sm:text-sm">Negro · 145,00 €</p></div>
+            </a>
+          </li>
+          <li class="group">
+            <a href="product.html" class="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos">
+              <div class="relative aspect-[3/4] overflow-hidden bg-arena"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=640&h=853&q=75" alt="Bolso pequeño de piel en tono marrón oscuro" width="640" height="853" loading="lazy" decoding="async" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"><span class="absolute left-2 top-2 bg-marfil px-2 py-1 text-[10px] uppercase tracking-wider sm:left-3 sm:top-3 sm:text-xs">Favorito</span></div>
+              <div class="pt-3"><h3 class="text-xs font-medium sm:text-sm">Bolso Sacha</h3><p class="mt-1 text-xs text-gris sm:text-sm">Marrón oscuro · 185,00 €</p></div>
+            </a>
+          </li>
+        </ul>
+        <a href="catalog.html" class="mt-6 inline-flex text-sm font-medium underline decoration-borde underline-offset-4 hover:text-burdeos focus-visible:outline focus-visible:outline-2 focus-visible:outline-burdeos sm:hidden">Explorar el catálogo</a>
+      </div>
+    </section>
+
+    <section aria-labelledby="editorial-titulo" class="bg-arena">
+      <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+        <div class="mx-auto max-w-3xl text-center">
+          <p class="text-xs uppercase tracking-[0.2em] text-burdeos">MAISON ÉTOILE · París</p>
+          <h2 id="editorial-titulo" class="mt-3 font-serif text-3xl sm:text-4xl">Menos, pero mejor</h2>
+          <p class="mt-4 text-sm leading-7 text-gris sm:text-base">Creemos en un armario construido con intención: materiales agradables, formas honestas y prendas que vuelven a elegirse. Una invitación a encontrar tu propio ritmo.</p>
+          <a href="catalog.html" class="mt-7 inline-flex items-center justify-center border border-carbon px-6 py-3 text-sm font-medium hover:bg-carbon hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-burdeos">Conocer la colección</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-carbon text-marfil">
+    <div class="mx-auto grid max-w-7xl grid-cols-2 gap-8 px-4 py-12 text-sm sm:px-6 lg:grid-cols-5 lg:px-8">
+      <div class="col-span-2 lg:col-span-1">
+        <p class="font-serif text-xl tracking-widest">MAISON ÉTOILE</p>
+        <p class="mt-3 text-borde">Moda contemporánea francesa.</p>
+      </div>
+      <nav aria-label="Categorías">
+        <h2 class="mb-3 font-medium">Categorías</h2>
+        <ul class="space-y-2 text-borde">
+          <li><a href="catalog.html" class="hover:text-white focus-visible:underline">Calzado</a></li>
+          <li><a href="catalog.html" class="hover:text-white focus-visible:underline">Camisas</a></li>
+          <li><a href="catalog.html" class="hover:text-white focus-visible:underline">Pantalones</a></li>
+          <li><a href="catalog.html" class="hover:text-white focus-visible:underline">Accesorios</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Información">
+        <h2 class="mb-3 font-medium">Información</h2>
+        <ul class="space-y-2 text-borde">
+          <li><a href="#editorial-titulo" class="hover:text-white focus-visible:underline">Acerca de</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Legal">
+        <h2 class="mb-3 font-medium">Legal</h2>
+        <ul class="space-y-2 text-borde">
+          <li><a href="#" class="hover:text-white focus-visible:underline">Condiciones generales</a></li>
+          <li><a href="#" class="hover:text-white focus-visible:underline">Política de privacidad</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="mb-3 font-medium">Contacto</h2>
+        <address class="not-italic space-y-2 text-borde">
+          <p><a href="mailto:contacto@maisonetoile.example" class="hover:text-white focus-visible:underline">contacto@maisonetoile.example</a></p>
+          <p>París, Francia</p>
+        </address>
+      </div>
+    </div>
+    <div class="border-t border-gris">
+      <p class="mx-auto max-w-7xl px-4 py-4 text-xs text-borde sm:px-6 lg:px-8">© 2026 MAISON ÉTOILE. Proyecto académico ficticio.</p>
+    </div>
+  </footer>
+</body>
+</html>
